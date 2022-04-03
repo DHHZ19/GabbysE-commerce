@@ -1,3 +1,3 @@
 # GabbysE-commerce
 
-This is a boutique I am building for a client.
+This is a boutique I am building web for a client.
