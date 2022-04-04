@@ -26,11 +26,7 @@
 body {
   color: #666666;
   font-size: 1rem;
-<<<<<<< HEAD
-  font-family: "Poppins", sans-serif;
-=======
   font-family: "Asap", "Ubuntu", "Dancing Script","Poppins", sans-serif;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
@@ -42,11 +38,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #333333;
-<<<<<<< HEAD
-  font-family: "Montserrat", sans-serif;
-=======
   font-family: "Asap", sans-serif;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -2887,11 +2879,7 @@ table p {
   }
 }
 .scroll-to-top:hover {
-<<<<<<< HEAD
-  background-color: #c2a18a;
-=======
   background-color: #f23472;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   box-shadow: none;
   color: #fff;
 }
@@ -3573,11 +3561,7 @@ table p {
 }
 .header-area.header-default .header-action-area .btn-cart .cart-count {
   border-radius: 50%;
-<<<<<<< HEAD
-  background-color: #c2a18a;
-=======
   background-color: #f23472;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   color: #fff;
   display: inline-block;
   top: -11px;
@@ -4937,11 +4921,8 @@ table p {
   }
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-header .close-action .btn-close:hover {
-<<<<<<< HEAD
   color: #c2a18a;
-=======
   color: #f23472;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -5008,7 +4989,6 @@ table p {
   top: 5px;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li ul li a:hover {
-<<<<<<< HEAD
   color: #c2a18a;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a {
@@ -5016,7 +4996,6 @@ table p {
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a .slicknav_arrow {
   color: #c2a18a;
-=======
   color: #f23472;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a {
@@ -5024,7 +5003,6 @@ table p {
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a .slicknav_arrow {
   color: #f23472;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open ul li a {
   color: #0A1039;
@@ -5033,11 +5011,8 @@ table p {
   color: #0A1039;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open ul li a:hover {
-<<<<<<< HEAD
   color: #c2a18a;
-=======
   color: #f23472;
->>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
 }
 .off-canvas-wrapper.active {
   opacity: 1;
