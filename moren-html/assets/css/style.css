@@ -26,7 +26,11 @@
 body {
   color: #666666;
   font-size: 1rem;
+<<<<<<< HEAD
   font-family: "Poppins", sans-serif;
+=======
+  font-family: "Asap", "Ubuntu", "Dancing Script","Poppins", sans-serif;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
@@ -38,13 +42,17 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #333333;
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: "Asap", sans-serif;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 10px;
   margin-top: 0;
 }
-
+/* this is stuff */
 a {
   color: #c2a18a;
   text-decoration: none;
@@ -176,7 +184,7 @@ table p {
   }
 }
 .section-title .subtitle {
-  color: #c2a18a;
+  color: #f13371;
   display: inline-block;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -194,7 +202,7 @@ table p {
   }
 }
 .section-title .subtitle.line-theme-color:after {
-  background-color: #c2a18a;
+  background-color: #f13371;
 }
 .section-title .subtitle.line-white-color:after {
   background-color: #fff;
@@ -1578,7 +1586,7 @@ table p {
   border-radius: 3px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #c2a18a;
+  background-color: #f13371;
 }
 @keyframes la-rotateplane {
   0% {
@@ -2879,7 +2887,11 @@ table p {
   }
 }
 .scroll-to-top:hover {
+<<<<<<< HEAD
   background-color: #c2a18a;
+=======
+  background-color: #f23472;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   box-shadow: none;
   color: #fff;
 }
@@ -2947,7 +2959,7 @@ table p {
 .has-submenu .submenu-nav {
   box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.09);
   background-color: #333;
-  color: #fff;
+  color: #ff3d85;
   display: block;
   margin-top: 20px;
   position: absolute;
@@ -3561,7 +3573,11 @@ table p {
 }
 .header-area.header-default .header-action-area .btn-cart .cart-count {
   border-radius: 50%;
+<<<<<<< HEAD
   background-color: #c2a18a;
+=======
+  background-color: #f23472;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   color: #fff;
   display: inline-block;
   top: -11px;
@@ -3642,7 +3658,7 @@ table p {
   margin-left: 40px;
 }
 .header-area.header-default.header-style2 .header-navigation-area .main-menu > li > a {
-  color: #fff;
+  color: #fe3776;
 }
 @media only screen and (max-width: 1399px) {
   .header-area.header-default.header-style2 .header-navigation-area .main-menu > li > a {
@@ -4921,7 +4937,11 @@ table p {
   }
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-header .close-action .btn-close:hover {
+<<<<<<< HEAD
   color: #c2a18a;
+=======
+  color: #f23472;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
   transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -4988,6 +5008,7 @@ table p {
   top: 5px;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li ul li a:hover {
+<<<<<<< HEAD
   color: #c2a18a;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a {
@@ -4995,6 +5016,15 @@ table p {
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a .slicknav_arrow {
   color: #c2a18a;
+=======
+  color: #f23472;
+}
+.off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a {
+  color: #f23472;
+}
+.off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open a .slicknav_arrow {
+  color: #f23472;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open ul li a {
   color: #0A1039;
@@ -5003,7 +5033,11 @@ table p {
   color: #0A1039;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li.slicknav_open ul li a:hover {
+<<<<<<< HEAD
   color: #c2a18a;
+=======
+  color: #f23472;
+>>>>>>> 8bbdd45 (Added changes to coloring and added first buy now feature)
 }
 .off-canvas-wrapper.active {
   opacity: 1;
@@ -7780,7 +7814,7 @@ table p {
   }
 }
 .divider-area.divider-about-area .divider-about-content .divider-content span {
-  color: #c2a18a;
+  color: #f13371;
   display: block;
   letter-spacing: 1.6px;
   margin-bottom: 13px;
@@ -8789,7 +8823,7 @@ table p {
   display: inline-block;
 }
 .featured-item .content span svg {
-  color: #C2A18A;
+  color: #f13371;
   margin-bottom: 21px;
   height: 76px;
   width: 76px;
@@ -9731,10 +9765,10 @@ table p {
   color: #333;
 }
 .product-item .product-info .title a:hover {
-  color: #c2a18a;
+  color: #f13371;
 }
 .product-item .product-info .prices {
-  color: #c2a18a;
+  color: #f13371;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -13038,7 +13072,7 @@ table p {
   }
 }
 .collection-slider-content .collection-slider-container .swiper-wrapper .swiper-slide .slider-item .slider-content-area .content span {
-  color: #c2a18a;
+  color: #f13371;
   display: inline-block;
   letter-spacing: 1.6px;
   margin-bottom: 10px;
@@ -14083,12 +14117,12 @@ table p {
   color: #e04b34;
 }
 .single-product-info .widget-social-icons a.pinterest {
-  background-color: #c32026;
+  background-color: #f13371;
 }
 .single-product-info .widget-social-icons a:hover {
   background-color: transparent;
-  border-color: #ce1f21;
-  color: #ce1f21;
+  border-color: #f13371;
+  color: #f13371;
 }
 .single-product-info .widget-social-icons a i {
   font-size: 14px;
@@ -18692,7 +18726,7 @@ table p {
   margin-top: 20px;
 }
 .footer-area.footer-style1 .footer-main .widget-social-icons a {
-  color: #C2A18A;
+  color: #f13371;
   font-size: 30px;
   margin-right: 47px;
 }
