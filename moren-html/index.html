@@ -290,374 +290,171 @@
     <!--== End Hero Area Wrapper ==-->
 
     <!--== Start Collection Slider Area Wrapper ==-->
-    <section class="collection-slider-area">
-      <div class="collection-slider-content">
-        <div class="swiper-container collection-slider-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <!-- Start Slide Item -->
-              <div class="slider-item">
-                <div class="thumb">
-                  <div class="bg-thumb bg-overlay bg-img" data-bg-img="https://www.teahub.io/photos/full/1-17304_star-earth-wallpaper-space-background-hd-1920-x.jpg"></div>
-                </div>
-                <div class="slider-content-area">
-                  <div class="content">
-                    <div class="inner-content">
-                      <span>Collection 2021</span>
-                      <h2>The spectacle before us was indeed sublime</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla quis ipsum enim viverra. Enim in morbi tincidunt ante luctus tincidunt integer. Sed adipiscing vehicula.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Slide Item --> <!--fdla-->
-            </div>
-            <div class="swiper-slide">
-              <!-- Start Slide Item -->
-              <div class="slider-item">
-                <div class="thumb">
-                  <div class="bg-thumb bg-overlay bg-img" data-bg-img="assets/img/slider/h1-s1.jpg"></div>
-                </div>
-                <div class="slider-content-area">
-                  <div class="content">
-                    <div class="inner-content">
-                      <span>Collection 2021</span>
-                      <h2>The spectacle before us was indeed sublime</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla quis ipsum enim viverra. Enim in morbi tincidunt ante luctus tincidunt integer. Sed adipiscing vehicula.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Slide Item -->
-            </div>
-          </div>          
-          <!-- Add Arrows -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-    </section>
-    <!--== End Collection Slider Area Wrapper ==-->
-
-    <!--== Start Products Area Wrapper ==-->
-    <section class="product-area best-sellers-product-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-lg-6 m-auto">
-            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
-              <h2 class="title">Best Sellers</h2>
-              <h5 class="subtitle">COLLECTION 2021</h5>
-            </div>
-          </div>
-        </div>
-        <div class="row row-gutter-60" data-aos="fade-up" data-aos-duration="1000">
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <!-- this is where the product starts-->
-                <div id='collection-component-1649018511545'></div>
-                <div id='product-component-1649027099749'></div>
-                <script type="text/javascript">
-                /*<![CDATA[*/
-                (function () {
-                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                  if (window.ShopifyBuy) {
-                    if (window.ShopifyBuy.UI) {
-                      ShopifyBuyInit();
-                    } else {
-                      loadScript();
-                    }
-                  } else {
-                    loadScript();
-                  }
-                  function loadScript() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = scriptURL;
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                    script.onload = ShopifyBuyInit;
-                  }
-                  function ShopifyBuyInit() {
-                    var client = ShopifyBuy.buildClient({
-                      domain: 'gabbys-web.myshopify.com',
-                      storefrontAccessToken: 'de69fc69e3f1e25b6914de8dab05489e',
-                    });
-                    ShopifyBuy.UI.onReady(client).then(function (ui) {
-                      ui.createComponent('product', {
-                        id: '7212081807541',
-                        node: document.getElementById('product-component-1649027099749'),
-                        moneyFormat: '%24%7B%7Bamount%7D%7D',
-                        options: {
-                  "product": {
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "100%",
-                          "margin-left": "0",
-                          "margin-bottom": "50px"
-                        },
-                        "text-align": "left"
-                      },
-                      "title": {
-                        "font-family": "Lato, sans-serif",
-                        "font-size": "26px",
-                        "color": "#e44e4e"
-                      },
-                      "button": {
-                        "font-family": "PT Serif, serif",
-                        ":hover": {
-                          "background-color": "#de3ea0"
-                        },
-                        "background-color": "#f745b2",
-                        ":focus": {
-                          "background-color": "#de3ea0"
-                        }
-                      },
-                      "price": {
-                        "font-size": "18px"
-                      },
-                      "compareAt": {
-                        "font-size": "15.299999999999999px"
-                      },
-                      "unitPrice": {
-                        "font-size": "15.299999999999999px"
-                      }
-                    },
-                    "layout": "horizontal",
-                    "contents": {
-                      "img": false,
-                      "imgWithCarousel": true,
-                      "description": true
-                    },
-                    "width": "100%",
-                    "text": {
-                      "button": "Add to cart"
-                    },
-                    "googleFonts": [
-                      "Lato",
-                      "PT Serif"
-                    ]
-                  },
-                  "productSet": {
-                    "styles": {
-                      "products": {
-                        "@media (min-width: 601px)": {
-                          "margin-left": "-20px"
-                        }
-                      }
-                    }
-                  },
-                  "modalProduct": {
-                    "contents": {
-                      "img": false,
-                      "imgWithCarousel": true,
-                      "button": false,
-                      "buttonWithQuantity": true
-                    },
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "100%",
-                          "margin-left": "0px",
-                          "margin-bottom": "0px"
-                        }
-                      },
-                      "button": {
-                        "font-family": "PT Serif, serif",
-                        ":hover": {
-                          "background-color": "#de3ea0"
-                        },
-                        "background-color": "#f745b2",
-                        ":focus": {
-                          "background-color": "#de3ea0"
-                        }
-                      },
-                      "title": {
-                        "font-family": "Helvetica Neue, sans-serif",
-                        "font-weight": "bold",
-                        "font-size": "26px",
-                        "color": "#4c4c4c"
-                      },
-                      "price": {
-                        "font-family": "Helvetica Neue, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "18px",
-                        "color": "#4c4c4c"
-                      },
-                      "compareAt": {
-                        "font-family": "Helvetica Neue, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "15.299999999999999px",
-                        "color": "#4c4c4c"
-                      },
-                      "unitPrice": {
-                        "font-family": "Helvetica Neue, sans-serif",
-                        "font-weight": "normal",
-                        "font-size": "15.299999999999999px",
-                        "color": "#4c4c4c"
-                      }
-                    },
-                    "googleFonts": [
-                      "PT Serif"
-                    ],
-                    "text": {
-                      "button": "Add to cart"
-                    }
-                  },
-                  "option": {},
-                  "cart": {
-                    "styles": {
-                      "button": {
-                        "font-family": "PT Serif, serif",
-                        ":hover": {
-                          "background-color": "#de3ea0"
-                        },
-                        "background-color": "#f745b2",
-                        ":focus": {
-                          "background-color": "#de3ea0"
-                        }
-                      }
-                    },
-                    "text": {
-                      "total": "Subtotal",
-                      "button": "Checkout"
-                    },
-                    "googleFonts": [
-                      "PT Serif"
-                    ]
-                  },
-                  "toggle": {
-                    "styles": {
-                      "toggle": {
-                        "font-family": "PT Serif, serif",
-                        "background-color": "#f745b2",
-                        ":hover": {
-                          "background-color": "#de3ea0"
-                        },
-                        ":focus": {
-                          "background-color": "#de3ea0"
-                        }
-                      }
-                    },
-                    "googleFonts": [
-                      "PT Serif"
-                    ]
-                  }
-                },
-                      });
-                    });
-                  }
-                })();
-                /*]]>*/
-                </script>
-                <!-- this is where the product ends-->
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Strapless crop top</a></h4>
-                  <div class="prices">
-                    <span class="price">£49.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/d2-1.jpg" alt="Moren-Shop">
-                  <span class="bg-thumb" data-bg-img="assets/img/shop/d2-2.jpg"></span>
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Printed surplice blouse</a></h4>
-                  <div class="prices">
-                    <span class="price">£49.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/d3-1.jpg" alt="Moren-Shop">
-                  <span class="bg-thumb" data-bg-img="assets/img/shop/d3-2.jpg"></span>
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Rustic Blouse</a></h4>
-                  <div class="prices">
-                    <span class="price">£49.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-        </div>
-      </div>
-    </section>
+    <div id='collection-component-1652045527895'></div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'gabbys-web.myshopify.com',
+          storefrontAccessToken: 'de69fc69e3f1e25b6914de8dab05489e',
+        });
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('collection', {
+            id: '291205906613',
+            node: document.getElementById('collection-component-1652045527895'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: {
+      "product": {
+        "styles": {
+          "product": {
+            "@media (min-width: 601px)": {
+              "max-width": "calc(25% - 20px)",
+              "margin-left": "20px",
+              "margin-bottom": "50px",
+              "width": "calc(25% - 20px)"
+            }
+          },
+          "title": {
+            "font-family": "Arial, sans-serif",
+            "font-weight": "normal",
+            "font-size": "20px",
+            "color": "#e44e4e"
+          },
+          "button": {
+            "font-family": "PT Serif, serif",
+            ":hover": {
+              "background-color": "#de3ea0"
+            },
+            "background-color": "#f745b2",
+            ":focus": {
+              "background-color": "#de3ea0"
+            }
+          }
+        },
+        "buttonDestination": "modal",
+        "contents": {
+          "options": false
+        },
+        "text": {
+          "button": "View product"
+        },
+        "googleFonts": [
+          "PT Serif"
+        ]
+      },
+      "productSet": {
+        "styles": {
+          "products": {
+            "@media (min-width: 601px)": {
+              "margin-left": "-20px"
+            }
+          }
+        }
+      },
+      "modalProduct": {
+        "contents": {
+          "img": false,
+          "imgWithCarousel": true,
+          "button": false,
+          "buttonWithQuantity": true
+        },
+        "styles": {
+          "product": {
+            "@media (min-width: 601px)": {
+              "max-width": "100%",
+              "margin-left": "0px",
+              "margin-bottom": "0px"
+            }
+          },
+          "button": {
+            "font-family": "PT Serif, serif",
+            ":hover": {
+              "background-color": "#de3ea0"
+            },
+            "background-color": "#f745b2",
+            ":focus": {
+              "background-color": "#de3ea0"
+            }
+          },
+          "title": {
+            "font-family": "Helvetica Neue, sans-serif",
+            "font-weight": "bold",
+            "font-size": "26px",
+            "color": "#4c4c4c"
+          }
+        },
+        "googleFonts": [
+          "PT Serif"
+        ],
+        "text": {
+          "button": "Add to cart"
+        }
+      },
+      "option": {},
+      "cart": {
+        "styles": {
+          "button": {
+            "font-family": "PT Serif, serif",
+            ":hover": {
+              "background-color": "#de3ea0"
+            },
+            "background-color": "#f745b2",
+            ":focus": {
+              "background-color": "#de3ea0"
+            }
+          }
+        },
+        "text": {
+          "total": "Subtotal",
+          "button": "checkout"
+        },
+        "popup": false,
+        "googleFonts": [
+          "PT Serif"
+        ]
+      },
+      "toggle": {
+        "styles": {
+          "toggle": {
+            "font-family": "PT Serif, serif",
+            "background-color": "#f745b2",
+            ":hover": {
+              "background-color": "#de3ea0"
+            },
+            ":focus": {
+              "background-color": "#de3ea0"
+            }
+          }
+        },
+        "googleFonts": [
+          "PT Serif"
+        ]
+      }
+    },
+          });
+        });
+      }
+    })();
+    /*]]>*/
+    </script>
     <!--== End Products Area Wrapper ==-->
 
     <!--== Start Category Area Wrapper ==-->
@@ -846,347 +643,171 @@
     <!--== End Category Slider Area Wrapper ==-->
 
     <!--== Start Products Area Wrapper ==-->
-    <section class="product-area new-product-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-lg-6 m-auto">
-            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+   
               <h2 class="title">New Products</h2>
               <h5 class="subtitle">COLLECTION 2021</h5>
-            </div>
-          </div>
-        </div>
-        <div class="row row-gutter-60" data-aos="fade-up" data-aos-duration="1000">
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/1.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Knit cropped cardigan</a></h4>
-                  <div class="prices">
-                    <span class="price">£29.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/2.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Tie-dye Wweatshirt</a></h4>
-                  <div class="prices">
-                    <span class="price">£29.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/3.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Short lilac ruffled dress</a></h4>
-                  <div class="prices">
-                    <span class="price">£29.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/4.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Black check texture shirt</a></h4>
-                  <div class="prices">
-                    <span class="price">£19.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/5.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Strapless crop top</a></h4>
-                  <div class="prices">
-                    <span class="price">£19.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/6.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Blue wide-leg jeans</a></h4>
-                  <div class="prices">
-                    <span class="price">£35.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/7.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Shorts with turn-up hems</a></h4>
-                  <div class="prices">
-                    <span class="price">£19.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/8.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Buttoned Waistcoat</a></h4>
-                  <div class="prices">
-                    <span class="price">£45.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-sm-6 col-lg-4">
-            <!-- Start Product Item -->
-            <div class="product-item">
-              <div class="product-thumb">
-                <a href="shop-single-product.html">
-                  <img src="assets/img/shop/9.jpg" alt="Moren-Shop">
-                  <span class="thumb-overlay"></span>
-                </a>
-                <div class="product-action">
-                  <a class="action-quick-view ht-tooltip" data-tippy-content="Quick View" href="javascript:void(0);" title="Wishlist">
-                    <i class="lastudioicon-search-zoom-in"></i>
-                  </a>
-                  <a class="action-compare ht-tooltip" data-tippy-content="Add to compare" href="shop-compare.html" title="Add to compare">
-                    <i class="lastudioicon-compare"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="product-info">
-                <div class="content-inner">                  
-                  <h4 class="title"><a href="shop-single-product.html">Printed surplice blouse</a></h4>
-                  <div class="prices">
-                    <span class="price">£17.90</span>
-                  </div>
-                </div>
-                <div class="product-info-action">
-                  <a class="action-wishlist ht-tooltip" data-tippy-content="Add to wishlist" href="shop-wishlist.html" title="Add to wishlist">
-                    <i class="lastudioicon-heart-2"></i>
-                  </a>
-                  <a class="action-cart ht-tooltip" data-tippy-content="Add to cart" href="shop-cart.html" title="Add to cart">
-                    <i class="lastudioicon-bag-3"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- End Product Item -->
-          </div>
-          <div class="col-md-12 text-center">
-            <a href="shop.html" class="btn-theme btn-black btn-border btn-padding mt-20">View more</a>
-          </div>
-        </div>
-      </div>
-    </section>
+              <div id='collection-component-1652049418406'></div>
+              <script type="text/javascript">
+              /*<![CDATA[*/
+              (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
+                } else {
+                  loadScript();
+                }
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                  script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: 'gabbys-web.myshopify.com',
+                    storefrontAccessToken: 'de69fc69e3f1e25b6914de8dab05489e',
+                  });
+                  ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('collection', {
+                      id: '294738264245',
+                      node: document.getElementById('collection-component-1652049418406'),
+                      moneyFormat: '%24%7B%7Bamount%7D%7D',
+                      options: {
+                "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(33.33333% - 30px)",
+                        "margin-left": "30px",
+                        "margin-bottom": "50px",
+                        "width": "calc(33.33333% - 30px)"
+                      }
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "20px",
+                      "color": "#e44e4e"
+                    },
+                    "button": {
+                      "font-family": "PT Serif, serif",
+                      ":hover": {
+                        "background-color": "#de3ea0"
+                      },
+                      "background-color": "#f745b2",
+                      ":focus": {
+                        "background-color": "#de3ea0"
+                      }
+                    }
+                  },
+                  "buttonDestination": "checkout",
+                  "text": {
+                    "button": "Buy now"
+                  },
+                  "googleFonts": [
+                    "PT Serif"
+                  ]
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-30px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "PT Serif, serif",
+                      ":hover": {
+                        "background-color": "#de3ea0"
+                      },
+                      "background-color": "#f745b2",
+                      ":focus": {
+                        "background-color": "#de3ea0"
+                      }
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "googleFonts": [
+                    "PT Serif"
+                  ],
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {},
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "PT Serif, serif",
+                      ":hover": {
+                        "background-color": "#de3ea0"
+                      },
+                      "background-color": "#f745b2",
+                      ":focus": {
+                        "background-color": "#de3ea0"
+                      }
+                    }
+                  },
+                  "text": {
+                    "total": "Subtotal",
+                    "button": "checkout"
+                  },
+                  "popup": false,
+                  "googleFonts": [
+                    "PT Serif"
+                  ]
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "PT Serif, serif",
+                      "background-color": "#f745b2",
+                      ":hover": {
+                        "background-color": "#de3ea0"
+                      },
+                      ":focus": {
+                        "background-color": "#de3ea0"
+                      }
+                    }
+                  },
+                  "googleFonts": [
+                    "PT Serif"
+                  ]
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+              </script>
     <!--== End Products Area Wrapper ==-->
 
     <!--== Start Video Divider Area Wrapper ==-->
