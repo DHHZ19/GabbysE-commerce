@@ -170,11 +170,15 @@ table p {
 .section-title {
   margin-bottom: 51px;
 }
+#up{
+  margin-bottom: 7px;
+}
 @media only screen and (max-width: 767px) {
   .section-title {
     margin-bottom: 35px;
   }
 }
+
 .section-title .subtitle {
   color: #f13371;
   display: inline-block;
@@ -4944,7 +4948,7 @@ table p {
   margin-bottom: 0;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li a {
-  color: #0A1039;
+  color: #f13371;
   font-size: 18px;
   font-weight: 400;
   display: block;
@@ -4967,7 +4971,7 @@ table p {
   -o-transition: all 0.3s ease-in-out;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li a:hover {
-  color: #c2a18a;
+  color: #f23472;
 }
 .off-canvas-wrapper .off-canvas-inner .off-canvas-content .off-canvas-item .res-mobile-menu .slicknav_nav li ul {
   padding: 38px 0 0px 25px;
