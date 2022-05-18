@@ -105,6 +105,9 @@ p:last-child {
 img {
   max-width: 100%;
 }
+#biggerImg{
+  max-width: 150%;
+} 
 
 iframe {
   border: none !important;
@@ -18275,7 +18278,7 @@ table p {
   top: -4px;
 }
 .contact-info-content .align-top .contact-info-item .icon i {
-  color: #c2a18a;
+  color: #f13371;
   font-size: 22px;
   margin-right: 15px;
 }
@@ -18309,7 +18312,7 @@ table p {
   top: 2px;
 }
 .contact-info-content .align-bottom .contact-info-item .icon i {
-  color: #c2a18a;
+  color: #f13371;
   font-size: 20px;
   margin-right: 10px;
 }
