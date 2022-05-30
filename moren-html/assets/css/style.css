@@ -3325,7 +3325,7 @@ table p {
   padding: 0;
 }
 .header-area.header-default .header-navigation-area .main-menu > li > a {
-  color: #333;
+  color: #ff69B4;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -11519,10 +11519,10 @@ table p {
   color: #333;
 }
 .category-area.product-collection-area-style1 .items-align .align-right .product-item .product-info .content-inner .title a:hover {
-  color: #c2a18a;
+  color: #ff69B4;
 }
 .category-area.product-collection-area-style1 .items-align .align-right .product-item .product-info .content-inner .prices .price {
-  color: #c2a18a;
+  color: #ff69B4;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
