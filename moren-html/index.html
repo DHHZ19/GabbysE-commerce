@@ -313,7 +313,8 @@
     <!--== End Video Divider Area Wrapper ==-->
 
     <!--== Start Collection Slider Area Wrapper ==-->
-    <div id='collection-component-1652045527895'></div>
+  </br>
+    <div id='collection-component-1654629584894'></div>
     <script type="text/javascript">
     /*<![CDATA[*/
     (function () {
@@ -336,40 +337,53 @@
       }
       function ShopifyBuyInit() {
         var client = ShopifyBuy.buildClient({
-          domain: 'gabbys-web.myshopify.com',
-          storefrontAccessToken: 'de69fc69e3f1e25b6914de8dab05489e',
+          domain: 'mirala-boutique-shop.myshopify.com',
+          storefrontAccessToken: '28c7cf446e10d8bed8c21c29488ec59f',
         });
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent('collection', {
-            id: '291205906613',
-            node: document.getElementById('collection-component-1652045527895'),
+            id: '292516954262',
+            node: document.getElementById('collection-component-1654629584894'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
       "product": {
         "styles": {
           "product": {
             "@media (min-width: 601px)": {
-              "max-width": "calc(25% - 20px)",
-              "margin-left": "20px",
+              "max-width": "calc(33.33333% - 30px)",
+              "margin-left": "30px",
               "margin-bottom": "50px",
-              "width": "calc(25% - 20px)"
+              "width": "calc(33.33333% - 30px)"
+            },
+            "img": {
+              "height": "calc(100% - 15px)",
+              "position": "absolute",
+              "left": "0",
+              "right": "0",
+              "top": "0"
+            },
+            "imgWrapper": {
+              "padding-top": "calc(75% + 15px)",
+              "position": "relative",
+              "height": "0"
             }
           },
           "title": {
-            "font-family": "Arial, sans-serif",
-            "font-weight": "normal",
-            "font-size": "20px",
-            "color": "#e44e4e"
+            "font-size": "17px"
           },
           "button": {
-            "font-family": "PT Serif, serif",
-            ":hover": {
-              "background-color": "#de3ea0"
-            },
-            "background-color": "#f745b2",
-            ":focus": {
-              "background-color": "#de3ea0"
-            }
+            "font-family": "Candara, sans-serif",
+            "font-size": "14px",
+            "padding-top": "15px",
+            "padding-bottom": "15px",
+            "border-radius": "20px",
+            "padding-left": "101px",
+            "padding-right": "101px"
+          },
+          "quantityInput": {
+            "font-size": "14px",
+            "padding-top": "15px",
+            "padding-bottom": "15px"
           }
         },
         "buttonDestination": "modal",
@@ -378,16 +392,13 @@
         },
         "text": {
           "button": "View product"
-        },
-        "googleFonts": [
-          "PT Serif"
-        ]
+        }
       },
       "productSet": {
         "styles": {
           "products": {
             "@media (min-width: 601px)": {
-              "margin-left": "-20px"
+              "margin-left": "-30px"
             }
           }
         }
@@ -408,14 +419,18 @@
             }
           },
           "button": {
-            "font-family": "PT Serif, serif",
-            ":hover": {
-              "background-color": "#de3ea0"
-            },
-            "background-color": "#f745b2",
-            ":focus": {
-              "background-color": "#de3ea0"
-            }
+            "font-family": "Candara, sans-serif",
+            "font-size": "14px",
+            "padding-top": "15px",
+            "padding-bottom": "15px",
+            "border-radius": "20px",
+            "padding-left": "101px",
+            "padding-right": "101px"
+          },
+          "quantityInput": {
+            "font-size": "14px",
+            "padding-top": "15px",
+            "padding-bottom": "15px"
           },
           "title": {
             "font-family": "Helvetica Neue, sans-serif",
@@ -424,9 +439,6 @@
             "color": "#4c4c4c"
           }
         },
-        "googleFonts": [
-          "PT Serif"
-        ],
         "text": {
           "button": "Add to cart"
         }
@@ -435,41 +447,27 @@
       "cart": {
         "styles": {
           "button": {
-            "font-family": "PT Serif, serif",
-            ":hover": {
-              "background-color": "#de3ea0"
-            },
-            "background-color": "#f745b2",
-            ":focus": {
-              "background-color": "#de3ea0"
-            }
+            "font-family": "Candara, sans-serif",
+            "font-size": "14px",
+            "padding-top": "15px",
+            "padding-bottom": "15px",
+            "border-radius": "20px"
           }
         },
         "text": {
           "total": "Subtotal",
-          "button": "checkout"
-        },
-        "popup": false,
-        "googleFonts": [
-          "PT Serif"
-        ]
+          "button": "Checkout"
+        }
       },
       "toggle": {
         "styles": {
           "toggle": {
-            "font-family": "PT Serif, serif",
-            "background-color": "#f745b2",
-            ":hover": {
-              "background-color": "#de3ea0"
-            },
-            ":focus": {
-              "background-color": "#de3ea0"
-            }
+            "font-family": "Candara, sans-serif"
+          },
+          "count": {
+            "font-size": "14px"
           }
-        },
-        "googleFonts": [
-          "PT Serif"
-        ]
+        }
       }
     },
           });
