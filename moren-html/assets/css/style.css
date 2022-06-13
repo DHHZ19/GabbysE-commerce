@@ -7757,7 +7757,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .divider-area.divider-about-area {
-  background-color: #F8F3F0;
+  background-color: white;
   padding: 100px 120px;
 }
 @media only screen and (max-width: 1399px) {
@@ -18656,7 +18656,7 @@ table p {
   }
 }
 .footer-area.footer-style1 .footer-main {
-  background-color: #F8F3F0;
+  background-color: rgb(243	241	235);
   padding: 86px 30px 90px 30px;
 }
 @media only screen and (max-width: 991px) {
