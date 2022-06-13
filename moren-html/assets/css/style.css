@@ -8918,7 +8918,7 @@ table p {
   padding: 12px 30px;
 }
 .contact-form .contact-form-wrapper .form-group .btn-theme:hover {
-  background-color: #c2a18a;
+  background-color: hotpink;
 }
 
 .login-form-content .tab-pane .login-form .login-form-wrapper .form-group .form-label {
@@ -18341,7 +18341,7 @@ table p {
   margin-right: 35px;
 }
 .contact-info-content .align-bottom .contact-info-item .content .social-widget a:hover {
-  color: #c2a18a;
+  color: hotpink;
 }
 .contact-info-content .align-bottom .contact-info-item .content .social-widget a:last-child {
   margin-right: 0;
@@ -18415,6 +18415,7 @@ table p {
     margin-right: 0;
   }
 }
+
 .footer-area.default-style .footer-main .widget-item.widget-column3 {
   margin-left: 40px;
 }
