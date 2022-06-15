@@ -7890,6 +7890,9 @@ table p {
     width: 85px;
   }
 }
+svg{
+  fill: red !important;
+}
 .divider-area.divider-about-area-style2 .divider-about-content {
   align-items: center;
   display: flex;
@@ -18480,7 +18483,7 @@ table p {
 }
 .footer-area.default-style .footer-main .widget-item .newsletter-content-wrap .newsletter-form .btn-theme:hover {
   background-color: #000;
-  color: #c2a18a;
+  color: hotpink;
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap .nav-menu {
   margin-top: -7px;
@@ -18503,7 +18506,7 @@ table p {
   }
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap .nav-menu li a:hover {
-  color: #c2a18a;
+  color: hotpink;
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap.menu-col-2 {
   display: flex;
