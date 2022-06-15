@@ -7757,7 +7757,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .divider-area.divider-about-area {
-  background-color: #F8F3F0;
+  background-color: white;
   padding: 100px 120px;
 }
 @media only screen and (max-width: 1399px) {
@@ -7889,6 +7889,9 @@ table p {
   .divider-area.divider-about-area-style2 .divider-about-thumb .video-content .thumb .btn-play svg {
     width: 85px;
   }
+}
+svg{
+  fill: red !important;
 }
 .divider-area.divider-about-area-style2 .divider-about-content {
   align-items: center;
@@ -8918,7 +8921,7 @@ table p {
   padding: 12px 30px;
 }
 .contact-form .contact-form-wrapper .form-group .btn-theme:hover {
-  background-color: #c2a18a;
+  background-color: hotpink;
 }
 
 .login-form-content .tab-pane .login-form .login-form-wrapper .form-group .form-label {
@@ -18341,7 +18344,7 @@ table p {
   margin-right: 35px;
 }
 .contact-info-content .align-bottom .contact-info-item .content .social-widget a:hover {
-  color: #c2a18a;
+  color: hotpink;
 }
 .contact-info-content .align-bottom .contact-info-item .content .social-widget a:last-child {
   margin-right: 0;
@@ -18415,6 +18418,7 @@ table p {
     margin-right: 0;
   }
 }
+
 .footer-area.default-style .footer-main .widget-item.widget-column3 {
   margin-left: 40px;
 }
@@ -18479,7 +18483,7 @@ table p {
 }
 .footer-area.default-style .footer-main .widget-item .newsletter-content-wrap .newsletter-form .btn-theme:hover {
   background-color: #000;
-  color: #c2a18a;
+  color: hotpink;
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap .nav-menu {
   margin-top: -7px;
@@ -18502,7 +18506,7 @@ table p {
   }
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap .nav-menu li a:hover {
-  color: #c2a18a;
+  color: hotpink;
 }
 .footer-area.default-style .footer-main .widget-item .widget-menu-wrap.menu-col-2 {
   display: flex;
@@ -18656,7 +18660,7 @@ table p {
   }
 }
 .footer-area.footer-style1 .footer-main {
-  background-color: #F8F3F0;
+  background-color: rgb(243	241	235);
   padding: 86px 30px 90px 30px;
 }
 @media only screen and (max-width: 991px) {
