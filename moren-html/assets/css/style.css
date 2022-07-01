@@ -5309,6 +5309,12 @@ table p {
   -ms-transition: 2s;
   -o-transition: 2s;
 }
+@media all and (min-width: 1000px){
+  #centerd{
+    margin-left: 350px;
+  }
+}
+
 .home-slider-area.slider-default .slider-content-area .content .inner-content h2 {
   color: hotpink;
   font-family: "Abril Fatface", cursive;
@@ -7796,7 +7802,7 @@ table p {
   }
 }
 .divider-area.divider-about-area .divider-about-content .divider-content span {
-  color: hotpink;
+  color: rgb(224,53, 170);
   display: block;
   letter-spacing: 1.6px;
   margin-bottom: 13px;
